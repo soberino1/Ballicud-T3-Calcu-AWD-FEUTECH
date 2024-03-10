@@ -1,0 +1,63 @@
+body{
+	background-image: url("https://wallpaperaccess.com/full/11283127.png");
+	background-repeat: no-repeat;
+	background-position:center;
+
+
+}
+#bodyc {
+  border-radius: 15px;
+  background:#A7C7E7;
+  padding: 20px; 
+  width: 300px;
+  height: 450px; 
+  margin-top: 155px;
+  margin-left: auto;
+  margin-right: auto;
+
+} 
+
+#calc-numbers {
+	width: 293px;
+	height: 50px;
+	font-weight:bold;
+	font-size:40px;
+	background: white;
+}
+
+
+
+.display {
+	display: grid;
+	height:75px;
+	width: 70px;
+	cursor: pointer;
+		 font-family: "Lucida Console", "Courier New", monospace;
+	 font-weight:bold;
+	 font-size:20px;
+	 align-content: center;
+}
+.display:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+input[type=button]:hover{
+	    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+	
+}
+
+
+
+input[type=button]{
+	display: grid;
+	height:75px;
+	width: 70px;
+	 cursor: pointer;
+	 font-family: "Lucida Console", "Courier New", monospace;
+	 font-weight:bold;
+	 font-size:20px;
+	
+}
